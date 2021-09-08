@@ -1,0 +1,363 @@
+<html>
+<head>
+<title>Civil Hospital Nurpur</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+	
+</head>
+<style>
+*{
+	margin:auto;
+	padding:auto;
+}
+.top{
+	width:100%;
+	background-color:red !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.top div{
+	width:1200px;
+	color:#fff;
+	background-color:red !important;
+	font-family:calibri;
+	padding:10px;
+	text-align:right;
+}
+
+.logo{
+	width:100%;
+	background-color:;
+	border-bottom:2px solid #f0f0f0;
+}
+.logo div{
+	width:1200px;
+	background-color:;
+	font-family:calibri;
+	padding:10px;
+	text-align:center;
+}
+.logo div table a{
+	padding:10px;
+	text-decoration:none;
+	color:red;
+}
+.logo div table a:hover{
+	color:red;
+	border-bottom:2px solid red;
+}
+
+.middle{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+}
+.middle div{
+	width:1200px;
+	height:400px;
+	font-family:calibri;
+}
+.middle div p{
+	width:1000px;
+	font-weight:bold;
+	height:300px;
+	color:#fff;
+	opacity:0.2;
+	font-size:50px;
+	background-color:#000;
+}
+.nav_down{
+	width:100%;
+	background-color:red !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.nav_down div{
+	width:1200px;
+	color:white;
+	background-color:red;
+	font-family:calibri;
+	padding:10px;
+	text-align:center;
+}
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.landing-page {
+  width: 882px;
+  margin: 100px auto 0;  
+}
+
+.landing-page *,
+.landing-page *:before,
+.landing-page *:after {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+.landing-page .module {
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 4px;
+	float: left;
+	padding: 2em;
+	width: 48%;
+}
+
+.landing-page .module > *:last-child,
+.landing-page .module > *:last-child > *:last-child,
+.landing-page .module > *:last-child > *:last-child > *:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.landing-page .note {	
+	background-color: rgb(236, 248, 236);
+	border: 1px dashed;	
+	border-radius: 4px;	
+	color: black;
+	font-family: georgia;	
+	font-size: .9em;
+	font-style: italic;
+	margin: 20px auto;
+	padding: 2em;
+}
+
+.form-appointment {
+	padding: 2em;
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid Red;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+	font-family: 'PT Sans', Arial, sans-serif;
+	margin: 20px auto;
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment textarea {	
+	border: 1px solid red;
+	border-radius: .2em;	
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 1.1em;
+	padding: .4em 1em;
+	margin: 0 0 .8em;
+	width: 100%;
+  box-shadow: 0 0 5px red inset;
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment input[type=submit],
+.form-appointment textarea {	
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+.form-appointment input[type=text]:active,
+.form-appointment input[type=text]:focus,
+.form-appointment input[type=email]:active,
+.form-appointment input[type=email]:focus,
+.form-appointment input[type=tel]:active,
+.form-appointment input[type=tel]:focus,
+.form-appointment textarea:active,
+.form-appointment textarea:focus {	
+  outline: 0;
+  box-shadow: 0 0 6px red;
+}
+
+.form-appointment textarea {
+	height: 160px;
+}
+
+.form-appointment input[type=submit] {
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1.4em;
+	padding: 10px 18px;
+}
+
+.form-appointment input[type=submit]:hover {
+	background-color: white;
+	color: red;
+}
+
+.form-appointment .wpcf7-list-item-label {
+	color: red;
+}
+
+span.wpcf7-list-item {
+	display: block;
+	margin-left: -.02em;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  width:100%;
+  overflow: hidden;
+  background-color: red;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+<body>
+	
+	<div class="top">
+		<div>
+		 Contact Us  0189 322 0036 
+		</div>
+	</div>
+	
+	<div class="logo">
+		<div>
+			<table>
+				<tr>
+				    
+					<td width="350px" style="font-size:40px;font-family:forte;"> <font color="red">Civil Hospital Nurpur</font> </td>
+					
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="navbar">
+	 <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Beds
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Total = 100</a>
+       <a href="#">Booked = 50</a>
+        <a href="#">Available = 50</a>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Oxygen Bed
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+     <a href="#">Total = 50</a>
+       <a href="#">Booked = 25</a>
+        <a href="#">Available = 25</a>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Ventilator 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+     <a href="#">Total = 6</a>
+       <a href="#">Booked = 5</a>
+        <a href="#">Available = 1</a>
+    </div>
+  </div>
+   <a href="https://www.google.com/maps/place/Civil+Hospital+nurpur/@32.3072403,75.8916125,17z/data=!3m1!4b1!4m5!3m4!1s0x391c82ca2c64fadb:0xc32c2b63d5c480fb!8m2!3d32.3072403!4d75.8938012?hl=en-GB">Location</a>
+   <a style="float:right" href="https://covid.icmr.org.in/15-government-laboratories/1058-civil-hospital-nurpur-kangra">More Information</a>
+</div>
+	<div class="left">
+		<div style="font-size:10px">
+		<img src="chnurpur.jpg" width="100%" height="400" border="0"/>
+		</div>
+	</div>
+	<div>
+<div class="landing-page"><div class="form-appointment"><div class="wpcf7" id="wpcf7-f560-p590-o1"><form action="/landing-page-template-do-not-delete/#wpcf7-f560-p590-o1" method="post" class="wpcf7-form" novalidate="novalidate" _lpchecked="1">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="560">
+<input type="hidden" name="_wpcf7_version" value="3.5">
+<input type="hidden" name="_wpcf7_locale" value="">
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f560-p590-o1">
+<input type="hidden" name="_wpnonce" value="dbb28877d5">
+</div>
+<div class="group">
+<div style="width: 48%; float: left;">
+<span class="wpcf7-form-control-wrap text-680"><input type="text" name="text-680" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" placeholder="Name"></span><br>
+<span class="wpcf7-form-control-wrap email-680"><input type="email" name="email-680" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" placeholder="Email"></span><br>
+<span class="wpcf7-form-control-wrap tel-630"><input type="tel" name="tel-630" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" placeholder="Phone"></span><br>
+<span class="wpcf7-form-control-wrap textarea-398"><textarea name="textarea-398" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" placeholder="Special notes, concerns, or requirements"></textarea></span></div>
+<div style="width: 48%; float: right;">
+<h4>What is the best way to reach you?</h4>
+<p><span class="wpcf7-form-control-wrap radio-98"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item"><label><input type="radio" name="radio-98" value="Phone">&nbsp;<span class="wpcf7-list-item-label">Phone</span></label></span><span class="wpcf7-list-item"><label><input type="radio" name="radio-98" value="Email">&nbsp;<span class="wpcf7-list-item-label">Email</span></label></span></span></span></p>
+<h4>Days of the week you are available for appointment:</h4>
+<p><span class="wpcf7-form-control-wrap checkbox-465"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Monday">&nbsp;<span class="wpcf7-list-item-label">Monday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Tuesday">&nbsp;<span class="wpcf7-list-item-label">Tuesday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Wednesday">&nbsp;<span class="wpcf7-list-item-label">Wednesday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Thursday">&nbsp;<span class="wpcf7-list-item-label">Thursday</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-465[]" value="Friday">&nbsp;<span class="wpcf7-list-item-label">Friday</span></label></span></span></span></p>
+<h4>Best time of day for your appointment:</h4>
+<p><span class="wpcf7-form-control-wrap checkbox-246"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Morning">&nbsp;<span class="wpcf7-list-item-label">Morning</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="checkbox-246[]" value="Afternoon">&nbsp;<span class="wpcf7-list-item-label">Afternoon</span></label></span></span></span></p></div>
+</div>
+<div style="text-align: center; padding-top: 2em; border-top: 1px solid red; margin-top: 1em;"><input type="submit" value="Request My Appointment" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="#" alt="Sending ..." style="visibility: hidden;"></div>
+  <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div>
+	
+</div>
+	
+	
+	
+	
+	<div class="nav_down">
+		       <div>
+		       &copy; Local Care, site designed & developed by Anurag & Ankit
+		       </div>
+	</div>
+	

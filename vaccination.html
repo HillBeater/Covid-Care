@@ -1,0 +1,445 @@
+<html>
+<head>
+<title>Vaccination</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: white;
+  color: #800000;
+  font-size:bold 100px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+<style>
+*{
+	margin:auto;
+	padding:auto;
+}
+.top{
+	width:100%;
+	background-color:#800000 !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.top div{
+	width:1200px;
+	color:#fff;
+	background-color:#800000 !important;
+	font-family:calibri;
+	padding:10px;
+	text-align:right;
+}
+
+.logo{
+	width:50%;
+	background-color:;
+	border-bottom:2px solid #f0f0f0;
+}
+.logo div{
+	width:400px;
+	background-color:;
+	font-family:calibri;
+	padding:10px;
+	text-align:left;
+}
+.logo div table a{
+	padding:10px;
+	text-decoration:none;
+	color:Black;
+}
+.logo div table a:hover{
+	color:blue;
+	border-bottom:2px solid black;
+}
+
+.middle{
+	width:100%;
+	border-bottom:2px solid #f0f0f0;
+}
+.middle div{
+	width:1200px;
+	height:400px;
+	font-family:calibri;
+}
+.middle div p{
+	width:1000px;
+	font-weight:bold;
+	height:300px;
+	color:#fff;
+	opacity:0.2;
+	font-size:50px;
+	background-color:#000;
+}
+.nav_down{
+	width:100%;
+	background-color:#800000 !important;
+	border-bottom:2px solid #f0f0f0;
+}
+.nav_down div{
+	width:1200px;
+	color:white;
+	background-color:#800000;
+	font-family:calibri;
+	padding:10px;
+	text-align:center;
+}
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.landing-page {
+  width: 882px;
+  margin: 100px auto 0;  
+}
+
+.landing-page *,
+.landing-page *:before,
+.landing-page *:after {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+.landing-page .module {
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 4px;
+	float: left;
+	padding: 2em;
+	width: 48%;
+}
+
+.landing-page .module > *:last-child,
+.landing-page .module > *:last-child > *:last-child,
+.landing-page .module > *:last-child > *:last-child > *:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.landing-page .note {	
+	background-color: rgb(236, 248, 236);
+	border: 1px dashed;	
+	border-radius: 4px;	
+	color: black;
+	font-family: georgia;	
+	font-size: .9em;
+	font-style: italic;
+	margin: 20px auto;
+	padding: 2em;
+}
+
+.form-appointment {
+	padding: 2em;
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid blue;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
+	font-family: 'PT Sans', Arial, sans-serif;
+	margin: 20px auto;
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment textarea {	
+	border: 1px solid blue;
+	border-radius: .2em;	
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 1.1em;
+	padding: .4em 1em;
+	margin: 0 0 .8em;
+	width: 100%;
+  box-shadow: 0 0 5px #800000 inset;
+}
+
+.form-appointment input[type=text],
+.form-appointment input[type=email],
+.form-appointment input[type=tel],
+.form-appointment input[type=submit],
+.form-appointment textarea {	
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+.form-appointment input[type=text]:active,
+.form-appointment input[type=text]:focus,
+.form-appointment input[type=email]:active,
+.form-appointment input[type=email]:focus,
+.form-appointment input[type=tel]:active,
+.form-appointment input[type=tel]:focus,
+.form-appointment textarea:active,
+.form-appointment textarea:focus {	
+  outline: 0;
+  box-shadow: 0 0 6px #800000;
+}
+
+.form-appointment textarea {
+	height: 160px;
+}
+
+.form-appointment input[type=submit] {
+	background-color: #800000;
+	border: 1px solid #800000;
+	border-radius: 4px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1.4em;
+	padding: 10px 18px;
+}
+
+.form-appointment input[type=submit]:hover {
+	background-color: white;
+	color: #800000;
+}
+
+.form-appointment .wpcf7-list-item-label {
+	color: #800000;
+}
+
+span.wpcf7-list-item {
+	display: block;
+	margin-left: -.02em;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #800000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.content {
+}
+.content_resize {
+	margin:0 auto;
+	padding:0 0 24px;
+	width:970px;
+	background-color:#fff;
+}
+.content .mainbar .article {
+	margin:0 0 12px;
+	padding:8px 24px 0 24px;
+}
+
+</style>
+<style>
+table {
+  width:50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: #800000;
+  color: white;
+}
+</style>
+<body>
+	
+	<div class="logo">
+		<div>
+			<table>
+
+				<tr>
+				    
+<div class="header">
+  <h1>Vaccination</h1>
+		</div>			
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="navbar">
+	 <a href="index.html">Home</a>
+	 <a href="https://ourworldindata.org/covid-vaccinations">World</a>
+	 <a href="https://www.google.com/search?q=vaccination+data+chart+of+india&client=firefox-b-d&sxsrf=ALeKk03ykZ5SxTRDKF39FtboHanNyJa2iw%3A1622094952540&ei=aDSvYMCuIJjbz7sP9Zy80AE&oq=vaccination+data+chart+of+india&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsAM6BwgAELADEEM6BAgjECc6AggAOgYIABAFEB46CAgAEAcQBRAeOgYIABAHEB46CAgAEAgQBxAeOgUIABDNAjoECCEQClCLJFjlY2D9Z2gFcAJ4AIAB1ASIAcUckgELMC41LjYuMS4xLjGYAQCgAQGqAQdnd3Mtd2l6yAEKwAEB&sclient=gws-wiz&ved=0ahUKEwjAgsDLlunwAhWY7XMBHXUODxoQ4dUDCA0&uact=5">India</a>
+	  <a style="float:right" href="https://selfregistration.cowin.gov.in/">Register for Vaccination</a>
+ </div>
+	<div class="left">
+		<div style="font-size:10px">
+		<img src="vaccine.jpg" width="100%" height="400" border="0"/>
+		</div>
+	</div>
+	 <div class="article">
+	<h2><span>COVID-19 vaccines</span></h2>
+    
+          <p>Equitable access to safe and effective vaccines is critical to ending the COVID-19 pandemic, so it is hugely encouraging to see so many vaccines proving and going into development. WHO is working tirelessly with partners to develop, manufacture and deploy safe and effective vaccines. 
+
+Safe and effective vaccines are a game-changing tool: but for the foreseeable future we must continue wearing masks, cleaning our hands, ensuring good ventilation indoors, physically distancing and avoiding crowds. 
+
+Being vaccinated does not mean that we can throw caution to the wind and put ourselves and others at risk, particularly because research is still ongoing into how much vaccines protect not only against disease but also against infection and transmission.
+
+See WHO’s landscape of COVID-19 vaccine candidates for the latest information on vaccines in clinical and pre-clinical development, generally updated twice a week. WHO’s COVID-19 dashboard, updated daily, also features the number of vaccine doses administered globally.
+
+But it’s not vaccines that will stop the pandemic, it’s vaccination. We must ensure fair and equitable access to vaccines, and ensure every country receives them and can roll them out to protect their people, starting with the most vulnerable.</p>
+          <p class="spec"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines/advice">Read more &raquo;</a></p>
+        </div>
+         <h2>List of COVID-19 vaccines available in India :</h2>
+         <table  id="t01">
+  <tr>
+    <th>Vaccine</th>
+    <th>Status</th> 
+    <th>Approval</th>
+    <th>Deployment</th>
+  </tr>
+  <tr>
+    <td>Covishield</td>
+    <td>In use</td>
+    <td>1 January 2021</td>
+    <td>16 January 2021</td>
+  </tr>
+  <tr>
+    <td>Covaxin</td>
+    <td>In use</td>
+    <td>3 January 2021</td>
+    <td>16 January 2021</td>
+  </tr>
+  <tr>
+    <td>Sputnik V</td>
+    <td>Approved for use</td>
+    <td>12 April 2021</td>
+    <td>Not yet deployed</td>
+  </tr>
+</table>
+<h2>List of Vaccines under trial in India :</h2>
+         <table id="t01">
+  <tr>
+    <th>Vaccine</th>
+    <th>Technology</th> 
+    <th>Phase I</th>
+    <th>Phase II</th>
+      <th>Phase III</th>
+  </tr>
+  <tr>
+    <td>ZyCoV-D</td>
+    <td>DNA (plasmid expressing SARS-CoV-2 S protein)</td>
+    <td>Completed</td>
+    <td>Completed</td>
+    <td>In progress</td>
+  </tr>
+  <tr>
+    <td>Bio E COVID-19</td>
+    <td>Subunit (using an antigen)</td>
+    <td>Completed</td>
+    <td>Completed</td>
+     <td>In progress</td>
+  </tr>
+  <tr>
+    <td>HGC019</td>
+    <td>RNA</td>
+    <td>In progress</td>
+    <td>-</td>
+     <td>-</td>
+  </tr>
+  <tr>
+    <td>BBV154</td>
+    <td>Adenovirus vector (intranasal)</td>
+    <td>In progress</td>
+    <td>-</td>
+     <td>-</td>
+  </tr>
+  <tr>
+    <td>Covovax</td>
+    <td>SARS-CoV-2 recombinant spike protein nanoparticle vaccine (SARS-CoV-2 rS) with Matrix-M1 adjuvant</td>
+    <td>Completed</td>
+     <td>In Progress</td>
+     <td>-</td>
+  </tr>
+</table>
+	<div class="nav_down">
+		       <div>
+		       &copy; Local Care, site designed & developed by Anurag & Ankit
+		       </div>
+	</div>
+	</body>
+	</html>
